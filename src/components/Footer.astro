@@ -3,7 +3,7 @@ const platform = "github";
 const username = "Ayivugwe";
 ---
 
-<footer>
+<footer >
   <p class="txt-footer">Learn more about my projects on <a href={`https://www.${platform}.com/${username}`} target="_blank">{platform} </a>!</p>
 </footer>
 
@@ -65,9 +65,11 @@ const username = "Ayivugwe";
 		padding: 0;
 	}
 
-  .txt-footer{
-    display: block,
-    color: rgb(var(--accent-light)),
-    background-color: black;
-  }
+  .instructions {
+		margin-bottom: 2rem;
+		border: 1px solid rgba(var(--accent-light), 25%);
+		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
 </style>
